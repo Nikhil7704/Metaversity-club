@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome for Hamburger icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- Spline Viewer Script -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.54/build/spline-viewer.js"></script>
+
+    <title>Metaversity</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <!-- Optionally add a logo here -->
+            </div>
+            <ul class="navbar-items">
+                <!-- <li><a href="#">home</a></li> -->
+                <li><a href="#about">about</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#joinus">join us</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <!-- Hamburger Icon -->
+            <div class="hamburger-menu" id="hamburger-menu" style="color: rgba(255, 255, 255, 0.5)">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Fullscreen Background Section -->
+    <section class="background" >
+        <spline-viewer loading-anim-type="none"
+            url="https://prod.spline.design/6YxVKkk3iLUrNMV5/scene.splinecode"></spline-viewer>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="about-us">About Us</h2>
+        <div class="about-container">
+            <div class="content-left">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a volutpat mi, sit amet luctus sem.
+                    Integer ullamcorper, mi at tristique posuere, felis orci laoreet odio, vitae iaculis lorem tortor
+                    nec justo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a volutpat mi, sit amet luctus sem.
+                    Integer ullamcorper, mi at tristique posuere, felis orci laoreet odio, vitae iaculis lorem tortor
+                    nec justo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a volutpat mi, sit amet luctus sem.
+                    Integer ullamcorper, mi at tristique posuere, felis orci laoreet odio, vitae iaculis lorem tortor
+                    nec justo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a volutpat mi, sit amet luctus sem.
+                    Integer ullamcorper, mi at tristique posuere, felis orci laoreet odio, vitae iaculis lorem tortor
+                    nec justo.</p>
+            </div>
+            <div class="divider"></div>
+            <div class="content-right">
+                <h2>Our Mission</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac eros in odio dapibus fermentum.
+                    Vivamus aliquet fringilla felis, eget dapibus urna consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac eros in odio dapibus fermentum.
+                    Vivamus aliquet fringilla felis, eget dapibus urna consectetur et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac eros in odio dapibus fermentum.
+                    Vivamus aliquet fringilla felis, eget dapibus urna consectetur et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac eros in odio dapibus fermentum.
+                    Vivamus aliquet fringilla felis, eget dapibus urna consectetur et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac eros in odio dapibus fermentum.
+                    Vivamus aliquet fringilla felis, eget dapibus urna consectetur et.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- page 3 -->
+    <section class="gallery" id="gallery">
+        <div class="gallery-title">
+            <h2>Gallery</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item item1"><img src="./assets/image1.jpeg" alt="Image 1"></div>
+            <div class="gallery-item item2"><img src="./assets/image2.jpeg" alt="Image 2"></div>
+            <div class="gallery-item item3"><img src="./assets/image3.jpeg" alt="Image 3"></div>
+            <div class="gallery-item item4"><img src="./assets/image4.jpeg" alt="Image 4"></div>
+            <!-- <div class="gallery-item item5"><img src="./discoverImg/image5.png" alt="Image 5"></div> -->
+            <div class="gallery-item item6"><img src="./assets/image5.jpeg" alt="Image 6"></div>
+            <div class="gallery-item item7"><img src="./assets/image6.jpeg" alt="Image 7"></div>
+            <!-- <div class="gallery-item item8"><img src="./discoverImg/image8.png" alt="Image 8"></div> -->
+        </div>
+        <div class="gallery-buttons">
+            <button class="btn">Media</button>
+            <button class="btn">View More</button>
+            <button class="btn">Brochure</button>
+        </div>
+    </section>
+
+     <!-- page 4 -->
+     <section class="join-community-section" id="joinus">
+        <div class="join-community">
+            <h2>JOIN THE COMMUNITY</h2>
+            <p>Stay updated with the latest announcements, events, and more from Our Club!</p>
+            <!-- <a class="community" href="#">Get the App</a> -->
+            <a class="community" href="#">Join WhatsApp Channel</a>
+        </div>
+            <div class="contact-links">
+                <a target="_blank" href="https://www.instagram.com/nikhil_70704/" class="btn-contact">
+                    <i class="fab fa-instagram">
+                    </i>
+                </a>
+                <a target="_blank" href="tel:+919717452905" class="btn-contact">
+                    <i class="fa fa-mobile-alt">
+                    </i>
+                </a>
+                <a target="_blank" href="https://wa.me/+919717452905" class="btn-contact">
+                    <i class="fab fa-whatsapp">
+                    </i>
+                </a>s
+                <a target="_blank" href="mailto:nikhil.23bce10889@vitbhopal.ac.in" class="btn-contact">
+                    <i class="fa fa-at">
+                    </i>
+            </div>
+    </section>
+
+
+    <footer id="contact">
+        <div class="footer-links">
+            <a href="#">president</a>
+            <a href="#">vice president</a>
+            <a href="#">faculty incharge</a>
+            <a href="#">faculty incharge</a>
+        </div>
+        <hr>
+        <p>&copy; METAVERSITY. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
